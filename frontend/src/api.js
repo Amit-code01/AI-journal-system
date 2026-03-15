@@ -1,5 +1,5 @@
 // frontend/src/api.js
-const API_BASE = "https://ai-journal-system-9xoi.onrender.com";
+const API_BASE = "https://ai-journal-system-9xoi.onrender.com/api";
 
 // Hardcoded userId for now
 const USER_ID = "123";
@@ -36,7 +36,7 @@ export const getInsights = async () => {
   return res.json();
 };
 
-// Analyze text (if you want LLM)
+// Analyze text
 export const analyzeText = async (entryId) => {
   const res = await fetch(`${API_BASE}/journal/analyze`, {
     method: "POST",

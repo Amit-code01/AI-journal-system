@@ -1,5 +1,5 @@
 // frontend/src/api.js
-const API_BASE = "http://localhost:5000/api";
+const API_BASE = "https://ai-journal-system-9xoi.onrender.com";
 
 // Hardcoded userId for now
 const USER_ID = "123";

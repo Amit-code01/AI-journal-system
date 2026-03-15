@@ -10,8 +10,8 @@ const app = express();
 
 // Allow frontend URL from .env
 app.use(cors({
-  origin: process.env.FRONTEND_URL || "*"
-}));
+  origin: "https://ai-journal-system-chi.vercel.app/"
+,}));
 
 app.use(express.json());
 
